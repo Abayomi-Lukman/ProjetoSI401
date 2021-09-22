@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.ranking-container {
+    background-color: var(--white-opac);
+    align-self: center;
+    width: 60%;
+    height: 80%;
+    padding: 1em;
+}
+
+.ranking {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container {
+    align-self: center;
+}
+
+.image-container {
+    align-self: center;
+}
