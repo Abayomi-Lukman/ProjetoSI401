@@ -8,3 +8,7 @@ conteúdos estáticos para preencher a página.
 2. Front-end: Interações dinâmicas da página.
 3. Back-end: Controle de operações no servidor.
 
+# Links do projeto
+
+1. [Youtube](https://youtu.be/6LXkW2po0PE)
+2. [Github](https://github.com/diegoparreira/ProjetoSI401)

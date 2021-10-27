@@ -55,6 +55,8 @@
 .gameboard-container {
     background-color: var(--white-opac);
     text-align: center;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 2em;
 }
 
@@ -67,6 +69,31 @@
     justify-content: center;
     align-items: center;
     font-size: 0.7em;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    min-width: 600px;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-line {
+    display: flex;
+}
+
+.board-cell {
+    width: 25px;
+    height: 25px;
+    border: #000 1px solid;
+}
+
+.invisible {
+    display: none;
 }
 
 .fake-board {
